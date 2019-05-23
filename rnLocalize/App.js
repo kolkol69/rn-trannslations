@@ -18,10 +18,12 @@ export default class App extends Component {
 
   render() {
     return (
-      <View style={{ marginTop: 100, alignSelf: "center" }}>
-        <Text>{I18n.t("hello", { name: this.state.name })}</Text>
-        <Text>{I18n.t("title.head")}</Text>
-        <View style={{ marginBottom: 100 }} />
+      <View style={styles.container}>
+        <Text style={styles.welcome}>
+          <Text>{I18n.t("hello", { name: this.state.name })}</Text>
+          {"\n"}
+          <Text>{I18n.t("title.head")}</Text>
+        </Text>
         <Button
           title={"french"}
           onPress={() => {
@@ -55,11 +57,7 @@ const styles = StyleSheet.create({
   welcome: {
     fontSize: 20,
     textAlign: "center",
-    margin: 10
+    margin: 10,
+    marginBottom: 100,
   },
-  instructions: {
-    textAlign: "center",
-    color: "#333333",
-    marginBottom: 5
-  }
 });
