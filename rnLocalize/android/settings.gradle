@@ -1,0 +1,3 @@
+rootProject.name = 'rnLocalize'
+
+include ':app'
