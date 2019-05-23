@@ -1,3 +1,6 @@
 export default {
-  hello: "Hello"
+  hello: "Hello",
+  title: {
+    head: "This text is in English",
+  }
 };

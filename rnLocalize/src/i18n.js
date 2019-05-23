@@ -10,6 +10,10 @@ if (Array.isArray(locales)) {
   I18n.locale = locales[0].languageTag;
 }
 
+const changeLanguage = langTag => {
+  I18n.locale = langTag;
+};
+
 I18n.fallbacks = true;
 I18n.translations = {
   en,
@@ -17,3 +21,4 @@ I18n.translations = {
 };
 
 export default I18n;
+export { changeLanguage };
