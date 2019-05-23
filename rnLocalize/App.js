@@ -12,13 +12,14 @@ import I18n, { changeLanguage } from "./src/i18n";
 
 export default class App extends Component {
   state = {
-    language: "en"
+    language: "en",
+    name: "Maks"
   };
 
   render() {
     return (
       <View style={{ marginTop: 100, alignSelf: "center" }}>
-        <Text>{I18n.t("hello")}</Text>
+        <Text>{I18n.t("hello", { name: this.state.name })}</Text>
         <Text>{I18n.t("title.head")}</Text>
         <View style={{ marginBottom: 100 }} />
         <Button

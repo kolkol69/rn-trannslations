@@ -1,5 +1,5 @@
 export default {
-  hello: "Bonjour",
+  hello: "Bonjour, {{name}}",
   title: {
     head: "Ce texte est en français"
   }
