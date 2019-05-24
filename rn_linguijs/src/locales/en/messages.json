@@ -1,0 +1,11 @@
+{
+  "Do you want to mark all your messages as read?": "Do you want to mark all your messages as read?",
+  "Do you want to set all your messages as read?": "Do you want to set all your messages as read?",
+  "Message Inbox": "Message Inbox",
+  "See all unread messages or": "See all unread messages or",
+  "increment number (cs is better for that)": "increment number (cs is better for that)",
+  "mark messages as read": "mark messages as read",
+  "toggle language to {0}": "toggle language to {0}",
+  "{messagesCount, plural, =0 {You have no unread messages} one {There's # message in your inbox} few {There're # messages in your inbox} other {There're # messages in your inbox}}": "{messagesCount, plural, =0 {You have no unread messages} one {There's # message in your inbox} few {There're # messages in your inbox} other {There're # messages in your inbox}}",
+  "{username}.": "{username}."
+}

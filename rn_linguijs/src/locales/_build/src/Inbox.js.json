@@ -1,0 +1,66 @@
+{
+  "Do you want to mark all your messages as read?": {
+    "origin": [
+      [
+        "src/Inbox.js",
+        58
+      ]
+    ]
+  },
+  "toggle language to {0}": {
+    "origin": [
+      [
+        "src/Inbox.js",
+        31
+      ]
+    ]
+  },
+  "Message Inbox": {
+    "origin": [
+      [
+        "src/Inbox.js",
+        87
+      ]
+    ]
+  },
+  "See all unread messages or": {
+    "origin": [
+      [
+        "src/Inbox.js",
+        90
+      ]
+    ]
+  },
+  "mark messages as read": {
+    "origin": [
+      [
+        "src/Inbox.js",
+        91
+      ]
+    ]
+  },
+  "increment number (cs is better for that)": {
+    "origin": [
+      [
+        "src/Inbox.js",
+        94
+      ]
+    ]
+  },
+  "{messagesCount, plural, =0 {You have no unread messages} one {There's # message in your inbox} few {There're # messages in your inbox} other {There're # messages in your inbox}}": {
+    "origin": [
+      [
+        "src/Inbox.js",
+        96
+      ]
+    ]
+  },
+  "{username}.": {
+    "origin": [
+      [
+        "src/Inbox.js",
+        106
+      ]
+    ]
+  }
+}
