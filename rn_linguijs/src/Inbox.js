@@ -7,8 +7,8 @@ import {
   Alert,
   SafeAreaView
 } from "react-native";
-import { I18nProvider, Plural, withI18n, I18n } from "@lingui/react";
-import { Trans, t } from "@lingui/macro";
+import { I18nProvider, Plural, withI18n } from "@lingui/react";
+import { Trans } from "@lingui/macro";
 import { i18n, changeActiveLanguage } from "./i18nInstanceHolder";
 
 export default class App extends React.Component {
